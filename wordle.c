@@ -26,7 +26,7 @@ int main(){
     printf("Guess a 5-letter word: \n");
     
     
-    printf("%s\n", random_word_lower);
+    printf("%s\n", random_word_lower); // за debugване, може да го махнеш ако ти пречи, ппц не трябва да е тук
     for(int i = 0; i <=5; i++){
         char result_word[6] = {'_', '_', '_', '_', '_','\0'};
         
